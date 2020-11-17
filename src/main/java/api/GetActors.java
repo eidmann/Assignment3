@@ -1,7 +1,7 @@
 package main.java.api;
 
 public class GetActors {
-	
+
 	private int id;
 	private String fname;
 	private String lname;
@@ -11,25 +11,26 @@ public class GetActors {
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
-	
 
 	public String getFName() {
 		return fname;
 	}
+
 	public void setFName(String fname) {
 		this.fname = fname;
 	}
-	
+
 	public String getLName() {
 		return lname;
 	}
+
 	public void setLName(String lname) {
 		this.lname = lname;
 	}
-		
 
 //	public String getAddress() {
 //		return address;
@@ -37,7 +38,6 @@ public class GetActors {
 //	public void setAddress(String address) {
 //		this.address = address;
 //	}
-		
 
 //	public String getCourse_code() {
 //		return course_code;
